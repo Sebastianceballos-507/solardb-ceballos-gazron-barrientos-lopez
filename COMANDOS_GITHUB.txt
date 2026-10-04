@@ -1,0 +1,29 @@
+# COMANDOS_GITHUB.txt
+# Ejecutar desde la carpeta raíz del proyecto después de crear el repositorio vacío en GitHub.
+
+git init
+git branch -M main
+git add README.md .gitignore .env.example requirements.txt
+git commit -m "docs: documentar alcance y reproducción del proyecto"
+
+git add etl/simulador.py sql/01_tablas.sql
+git commit -m "feat: agregar simulador IoT y tablas de staging"
+
+git add sql/02_carga.sql sql/03_roles.sql etl/run_etl.py
+git commit -m "feat: implementar carga ETL idempotente y roles"
+
+git add data/lecturas.jsonl
+git commit -m "data: agregar muestra de telemetría JSONL"
+
+# Después de crear el PDF:
+git add docs/
+git commit -m "docs: incorporar PDF de consulta y evidencias"
+
+# Conectar con GitHub. REEMPLAZAR USUARIO y REPOSITORIO.
+git remote add origin https://github.com/USUARIO/solardb-apellido1-apellido2.git
+git push -u origin main
+
+# IMPORTANTE:
+# Los 3 commits de una persona NO sustituyen los 3 commits del compañero.
+# Cada integrante debe realizar al menos 3 commits desde su propia cuenta de GitHub.
+# Los mensajes no deben ser "update" ni "cambios".

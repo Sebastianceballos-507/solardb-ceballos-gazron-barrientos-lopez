@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Variables de entorno y credenciales
+.env
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+.spyproject/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
+# PostgreSQL dumps/archivos locales
+*.dump
+*.backup
