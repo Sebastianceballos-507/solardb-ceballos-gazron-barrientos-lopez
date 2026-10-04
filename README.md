@@ -29,7 +29,7 @@ Se implementa un flujo reproducible en PostgreSQL 15 o superior en el que:
 ## Estructura
 
 ```text
-solardb-apellido1-apellido2/
+solardb-Ceballos-Barrientos/
 ├── README.md
 ├── .gitignore
 ├── .env.example
