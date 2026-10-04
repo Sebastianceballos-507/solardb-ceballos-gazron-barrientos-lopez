@@ -8,7 +8,7 @@
 ## Integrantes
 
 - Sebastián Ceballos Garzón
-- [NOMBRE COMPLETO DEL SEGUNDO INTEGRANTE]
+- Juan Pablo Barrientos López
 
 ## Descripción
 
