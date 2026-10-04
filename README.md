@@ -160,7 +160,7 @@ python C:\ruta\al\repositorio\etl\run_etl.py
 | Integrante | Actividades |
 |---|---|
 | Sebastián Ceballos Garzón | Consulta de gobernanza, SQL, simulador y documentación del pipeline |
-| [SEGUNDO INTEGRANTE] | Consulta ETL/IoT, pruebas, evidencias y apoyo en documentación |
+| Juan Pablo Barrientos | Consulta ETL/IoT, pruebas, evidencias y apoyo en documentación |
 
 ## Frase del trabajo
 
