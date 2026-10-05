@@ -1,5 +1,5 @@
 -- Transformación y carga idempotente desde staging hacia la tabla relacional.
--- ->> extrae cada atributo como texto y los casteamos al tipo destino.
+-- ->> extrae cada Atributo como texto y los casteamos al tipo destino.
 
 INSERT INTO lectura_demo (
     dispositivo_id,
