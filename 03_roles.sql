@@ -1,5 +1,5 @@
--- Ejecutar como propietario de las tablas o como administrador.
--- El rol de lectura no puede modificar lectura_demo.
+-- Ejecutar como propietario de las tablas o como Administrador.
+-- El rol de lectura no puede modificar lecturas_demo.
 
 DO $$
 BEGIN
